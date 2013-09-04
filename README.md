@@ -55,4 +55,4 @@ npm install service-registry
 
 When developing install all packages after cloning (`npm i`) and then run `npm run-script dev`.
 
-The dev script runs `nodemon test.js` (if **nodemon** is not installed, just install it with `npm i -g nodemon`) and also connects to **growl*** to notify the developer about any errors during development (this is done via [cura-test-runner](https://npmjs.org/package/cura-test-runner)
+The dev script runs `nodemon test.js` (if **nodemon** is not installed, just install it with `npm i -g nodemon`) and also connects to **growl** to notify the developer about any errors during development (this is done via [cura-test-runner](https://npmjs.org/package/cura-test-runner)
