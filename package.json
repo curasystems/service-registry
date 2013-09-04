@@ -1,0 +1,30 @@
+{
+  "name": "service-registry",
+  "version": "0.0.1",
+  "description": "A simple registry to associated versioned service names with host/ip info ",
+  "main": "registry.js",
+  "scripts": {
+    "test": "node test",
+    "dev": "nodemon test.js -e js,coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@dev.curasystems.com:isis/isis-dns.git"
+  },
+  "keywords": [
+    "dns",
+    "naming",
+    "service",
+    "registry",
+    "port",
+    "ports"
+  ],
+  "author": "Matthias Goetzke",
+  "license": "MIT",
+  "dependencies": {
+    "semver": "~2.x"
+  },
+  "devDependencies": {
+    "cura-test-runner": "0.0.3"
+  }
+}
